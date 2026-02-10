@@ -45,8 +45,8 @@ Multi-protocol camera integration supporting ONVIF, RTSP, MJPEG, and snapshot UR
 
 | | |
 |---|---|
-| **Latest Version** | v2.6.2 |
-| **Download** | [CameraDriver-2.6.2.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/camera-driver-v2.6.2/CameraDriver-2.6.2.modl) |
+| **Latest Version** | v2.6.3 |
+| **Download** | [CameraDriver-2.6.3.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/camera-driver-v2.6.3/CameraDriver-2.6.3.modl) |
 | **Size** | 18 MB |
 
 **Features:**
