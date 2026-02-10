@@ -1,0 +1,196 @@
+<p align="center">
+  <h1 align="center">Gaskony Ignition Modules</h1>
+  <p align="center">
+    Production-ready modules for Inductive Automation Ignition 8.3+
+  </p>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ignition-8.3%2B-blue?style=flat-square" alt="Ignition 8.3+">
+  <img src="https://img.shields.io/badge/Java-17-orange?style=flat-square" alt="Java 17">
+  <img src="https://img.shields.io/badge/Modules-5-green?style=flat-square" alt="5 Modules">
+  <img src="https://img.shields.io/badge/License-Proprietary-lightgrey?style=flat-square" alt="License">
+</p>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Modules](#modules)
+  - [Camera Driver](#camera-driver)
+  - [Claude Code WebUI](#claude-code-webui)
+  - [Git Integration](#git-integration)
+  - [PLC Simulator](#plc-simulator)
+  - [Python 3 IDE](#python-3-ide)
+- [Getting Started](#getting-started)
+- [Compatibility](#compatibility)
+- [Support](#support)
+
+---
+
+## Overview
+
+This portal provides downloads for the **Gaskony Ignition Module Suite** - five production-ready modules that extend Inductive Automation's Ignition platform with camera integration, AI assistance, version control, device simulation, and Python 3 scripting.
+
+All modules are built for **Ignition 8.3+** with **Java 17** and are signed for secure deployment.
+
+---
+
+## Modules
+
+### Camera Driver
+
+Multi-protocol camera integration supporting ONVIF, RTSP, MJPEG, and snapshot URL connections.
+
+| | |
+|---|---|
+| **Latest Version** | v2.6.2 |
+| **Download** | [CameraDriver-2.6.2.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/camera-driver-v2.6.2/CameraDriver-2.6.2.modl) |
+| **Size** | 18 MB |
+
+**Features:**
+- ONVIF device discovery and management
+- Generic Camera support (RTSP, MJPEG, Snapshot URL)
+- Embedded go2rtc streaming engine
+- Connection Browser for device setup
+- OPC-UA tag integration for camera data
+
+<!-- ![Camera Driver Screenshot](docs/screenshots/camera-driver.png) -->
+
+---
+
+### Claude Code WebUI
+
+AI-powered coding assistant integrated directly into Ignition Gateway, providing Claude AI access for development and troubleshooting.
+
+| | |
+|---|---|
+| **Latest Version** | v5.10.12 |
+| **Download** | [ClaudeCode-WebUI-5.10.12.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/claude-code-v5.10.12/ClaudeCode-WebUI-5.10.12.modl) |
+| **Size** | 46 MB |
+
+**Features:**
+- Claude AI chat interface in Gateway WebUI
+- Auto-load context from Claude session files
+- File download with context tracking
+- System log monitoring panel
+- Terminal integration with scroll management
+
+**Requirements:** Claude API key (configured in module settings)
+
+<!-- ![Claude Code WebUI Screenshot](docs/screenshots/claude-code.png) -->
+
+---
+
+### Git Integration
+
+Full Git version control for Ignition projects directly from the Designer and Gateway.
+
+| | |
+|---|---|
+| **Latest Version** | v1.3.25 |
+| **Download** | [Ignition-Git-Module-1.3.25.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/git-module-v1.3.25/Ignition-Git-Module-1.3.25.modl) |
+| **Size** | 28 MB |
+
+**Features:**
+- Clone, commit, push, pull, and branch management
+- SSH key authentication with Ignition secrets management
+- Gateway WebUI for repository configuration
+- Designer toolbar with commit dialog and status bar
+- Automatic remote URL sync
+
+<!-- ![Git Integration Screenshot](docs/screenshots/git-module.png) -->
+
+---
+
+### PLC Simulator
+
+Simulate PLC devices with configurable tag structures for development and testing without physical hardware.
+
+| | |
+|---|---|
+| **Latest Version** | v7.3.20 |
+| **Download** | [EnhancedPLCSimulator-7.3.20.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/plc-simulator-v7.3.20/EnhancedPLCSimulator-7.3.20.modl) |
+| **Size** | 12 MB |
+
+**Features:**
+- Multiple simulated device types with realistic data patterns
+- Per-tag simulation control
+- Tag browser with search and filtering
+- File-based device configuration (import/export)
+- Gateway WebUI integration
+
+<!-- ![PLC Simulator Screenshot](docs/screenshots/plc-simulator.png) -->
+
+---
+
+### Python 3 IDE
+
+Full Python 3 scripting environment with an integrated IDE in the Ignition Designer.
+
+| | |
+|---|---|
+| **Latest Version** | v3.0.0 |
+| **Download** | [Python3-3.0.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/python3-ide-v3.0.0/Python3-3.0.0.modl) |
+| **Size** | 50 MB |
+
+**Features:**
+- Python 3 IDE in Designer with syntax highlighting
+- Script management with folder organisation and import/export
+- Process pool architecture (3-20 concurrent Python processes)
+- REST API for remote Python execution (OpenAPI compliant)
+- Find/Replace, themes (Dark, Light, VS Code Dark+), diagnostics
+- 184+ tests with comprehensive coverage
+
+**Requirements:** Python 3.8+ installed on the Gateway server
+
+<!-- ![Python 3 IDE Screenshot](docs/screenshots/python3-ide.png) -->
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Ignition 8.3+** (Gateway running with Java 17)
+- Module-specific requirements listed in each module section above
+
+### Installation
+
+1. Download the `.modl` file for the module you want to install
+2. Open your Ignition Gateway web interface (typically `http://localhost:8088`)
+3. Navigate to **Config > System > Modules**
+4. Click **Install or Upgrade a Module**
+5. Select the downloaded `.modl` file and click **Install**
+6. Restart the Gateway if prompted
+
+### Upgrading
+
+Follow the same installation steps - Ignition will detect the existing module and upgrade it in place. Your configuration will be preserved.
+
+---
+
+## Compatibility
+
+| Module | Version | Ignition | Java | Additional Requirements |
+|--------|---------|----------|------|------------------------|
+| Camera Driver | v2.6.2 | 8.3+ | 17 | Network access to cameras |
+| Claude Code WebUI | v5.10.12 | 8.3+ | 17 | Claude API key |
+| Git Integration | v1.3.25 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
+| PLC Simulator | v7.3.20 | 8.3+ | 17 | None |
+| Python 3 IDE | v3.0.0 | 8.3+ | 17 | Python 3.8+ on server |
+
+All modules are signed and compatible with Ignition's module security model.
+
+---
+
+## Support
+
+For issues, feature requests, or questions about any module, please [open an issue](https://github.com/Gaskony-Ignition/ignition-modules-portal/issues) on this repository.
+
+---
+
+<p align="center">
+  <sub>Built by <a href="https://github.com/Gaskony-Ignition">Gaskony Ignition</a></sub>
+</p>
