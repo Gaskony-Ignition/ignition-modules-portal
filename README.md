@@ -21,7 +21,7 @@
   - [Camera Driver](#camera-driver)
   - [Claude Code WebUI](#claude-code-webui)
   - [Git Integration](#git-integration)
-  - [PLC Simulator](#plc-simulator)
+  - [Logix PLC Emulator](#logix-plc-emulator)
   - [Python 3 IDE](#python-3-ide)
 - [Getting Started](#getting-started)
 - [Compatibility](#compatibility)
@@ -31,7 +31,7 @@
 
 ## Overview
 
-This portal provides downloads for the **Gaskony Ignition Module Suite** - five production-ready modules that extend Inductive Automation's Ignition platform with camera integration, AI assistance, version control, device simulation, and Python 3 scripting.
+This portal provides downloads for the **Gaskony Ignition Module Suite** - five production-ready modules that extend Inductive Automation's Ignition platform with camera integration, AI assistance, version control, PLC emulation, and Python 3 scripting.
 
 All modules are built for **Ignition 8.3+** with **Java 17** and are signed for secure deployment.
 
@@ -104,24 +104,24 @@ Full Git version control for Ignition projects directly from the Designer and Ga
 
 ---
 
-### PLC Simulator
+### Logix PLC Emulator
 
-Simulate PLC devices with configurable tag structures for development and testing without physical hardware.
+Emulate Allen-Bradley Logix PLC devices with configurable tag structures for development and testing without physical hardware.
 
 | | |
 |---|---|
-| **Latest Version** | v7.3.20 |
-| **Download** | [EnhancedPLCSimulator-7.3.20.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/plc-simulator-v7.3.20/EnhancedPLCSimulator-7.3.20.modl) |
+| **Latest Version** | v8.0.0 |
+| **Download** | [LogixPLCEmulator-8.0.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/plc-emulator-v8.0.0/LogixPLCEmulator-8.0.0.modl) |
 | **Size** | 12 MB |
 
 **Features:**
-- Multiple simulated device types with realistic data patterns
-- Per-tag simulation control
+- Multiple emulated device types with realistic data patterns
+- Per-tag emulation control
 - Tag browser with search and filtering
 - File-based device configuration (import/export)
 - Gateway WebUI integration
 
-<!-- ![PLC Simulator Screenshot](docs/screenshots/plc-simulator.png) -->
+<!-- ![Logix PLC Emulator Screenshot](docs/screenshots/plc-emulator.png) -->
 
 ---
 
@@ -178,7 +178,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Camera Driver | v2.6.8 | 8.3+ | 17 | Network access to cameras |
 | Claude Code WebUI | v5.10.12 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.25 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
-| PLC Simulator | v7.3.20 | 8.3+ | 17 | None |
+| Logix PLC Emulator | v8.0.0 | 8.3+ | 17 | None |
 | Python 3 IDE | v3.0.0 | 8.3+ | 17 | Python 3.8+ on server |
 
 All modules are signed and compatible with Ignition's module security model.
