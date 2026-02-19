@@ -111,7 +111,7 @@ Emulate Allen-Bradley Logix PLC devices with configurable tag structures for dev
 | | |
 |---|---|
 | **Latest Version** | v8.2.11 |
-| **Download** | [LogixPLCEmulator-8.2.11.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/plc-emulator-v8.0.0/LogixPLCEmulator-8.2.11.modl) |
+| **Download** | [LogixPLCEmulator-8.2.11.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/logix-emulator-v8.2.11/LogixPLCEmulator-8.2.11.modl) |
 | **Size** | 12 MB |
 
 **Features:**
