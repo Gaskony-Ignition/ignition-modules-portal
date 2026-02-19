@@ -19,7 +19,7 @@
 - [Overview](#overview)
 - [Modules](#modules)
   - [Camera Driver](#camera-driver)
-  - [Claude Code WebUI](#claude-code-webui)
+  - [Claude AI Terminal](#claude-ai-terminal)
   - [Git Integration](#git-integration)
   - [Logix PLC Emulator](#logix-plc-emulator)
   - [Python 3 IDE](#python-3-ide)
@@ -60,7 +60,7 @@ Multi-protocol camera integration supporting ONVIF, RTSP, MJPEG, and snapshot UR
 
 ---
 
-### Claude Code WebUI
+### Claude AI Terminal
 
 AI-powered coding assistant integrated directly into Ignition Gateway, providing Claude AI access for development and troubleshooting.
 
@@ -79,7 +79,7 @@ AI-powered coding assistant integrated directly into Ignition Gateway, providing
 
 **Requirements:** Claude API key (configured in module settings)
 
-<!-- ![Claude Code WebUI Screenshot](docs/screenshots/claude-code.png) -->
+<!-- ![Claude AI Terminal Screenshot](docs/screenshots/claude-code.png) -->
 
 ---
 
@@ -176,7 +176,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Module | Version | Ignition | Java | Additional Requirements |
 |--------|---------|----------|------|------------------------|
 | Camera Driver | v2.7.8 | 8.3+ | 17 | Network access to cameras |
-| Claude Code WebUI | v5.25.0 | 8.3+ | 17 | Claude API key |
+| Claude AI Terminal | v5.25.0 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.25 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v8.2.11 | 8.3+ | 17 | None |
 | Python 3 IDE | v3.1.0 | 8.3+ | 17 | Python 3.8+ on server |
