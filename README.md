@@ -22,7 +22,7 @@
   - [Claude AI Terminal](#claude-ai-terminal)
   - [Git Integration](#git-integration)
   - [Logix PLC Emulator](#logix-plc-emulator)
-  - [Python 3 IDE](#python-3-ide)
+  - [Python 3 Integration](#python-3-ide)
 - [Getting Started](#getting-started)
 - [Compatibility](#compatibility)
 - [Support](#support)
@@ -125,18 +125,18 @@ Emulate Allen-Bradley Logix PLC devices with configurable tag structures for dev
 
 ---
 
-### Python 3 IDE
+### Python 3 Integration
 
 Full Python 3 scripting environment with an integrated IDE in the Ignition Designer.
 
 | | |
 |---|---|
 | **Latest Version** | v3.1.0 |
-| **Download** | [Python3-3.1.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/python3-ide-v3.1.0/Python3-3.1.0.modl) |
+| **Download** | [Python3-3.1.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/python3-integration-v3.1.0/Python3-3.1.0.modl) |
 | **Size** | 50 MB |
 
 **Features:**
-- Python 3 IDE in Designer with syntax highlighting
+- Python 3 Integration in Designer with syntax highlighting
 - Script management with folder organisation and import/export
 - Process pool architecture (3-20 concurrent Python processes)
 - REST API for remote Python execution (OpenAPI compliant)
@@ -145,7 +145,7 @@ Full Python 3 scripting environment with an integrated IDE in the Ignition Desig
 
 **Requirements:** Python 3.8+ installed on the Gateway server
 
-<!-- ![Python 3 IDE Screenshot](docs/screenshots/python3-ide.png) -->
+<!-- ![Python 3 Integration Screenshot](docs/screenshots/python3-integration.png) -->
 
 ---
 
@@ -179,7 +179,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Claude AI Terminal | v5.25.0 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.25 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v8.2.11 | 8.3+ | 17 | None |
-| Python 3 IDE | v3.1.0 | 8.3+ | 17 | Python 3.8+ on server |
+| Python 3 Integration | v3.1.0 | 8.3+ | 17 | Python 3.8+ on server |
 
 All modules are signed and compatible with Ignition's module security model.
 
