@@ -22,7 +22,7 @@
   - [Claude AI Terminal](#claude-ai-terminal)
   - [Git Integration](#git-integration)
   - [Logix PLC Emulator](#logix-plc-emulator)
-  - [Python 3 Integration](#python-3-ide)
+  - [Python 3 Integration](#python-3-integration)
 - [Getting Started](#getting-started)
 - [Compatibility](#compatibility)
 - [Support](#support)
