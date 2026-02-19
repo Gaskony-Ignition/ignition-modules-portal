@@ -64,8 +64,8 @@ AI-powered coding assistant integrated directly into Ignition Gateway, providing
 
 | | |
 |---|---|
-| **Latest Version** | v5.25.0 |
-| **Download** | [ClaudeCode-WebUI-5.25.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/claude-code-v5.25.0/ClaudeCode-WebUI-5.25.0.modl) |
+| **Latest Version** | v5.25.1 |
+| **Download** | [ClaudeCode-WebUI-5.25.1.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/claude-code-v5.25.1/ClaudeCode-WebUI-5.25.1.modl) |
 | **Size** | 46 MB |
 
 **Features:**
@@ -77,7 +77,7 @@ AI-powered coding assistant integrated directly into Ignition Gateway, providing
 
 **Requirements:** Claude API key (configured in module settings)
 
-![Claude AI Terminal Screenshot](screenshots/claude-code-webui.png)
+![Claude AI Terminal Screenshot](screenshots/claude-ai-terminal.png)
 
 ---
 
@@ -174,7 +174,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Module | Version | Ignition | Java | Additional Requirements |
 |--------|---------|----------|------|------------------------|
 | Camera Driver | v2.7.8 | 8.3+ | 17 | Network access to cameras |
-| Claude AI Terminal | v5.25.0 | 8.3+ | 17 | Claude API key |
+| Claude AI Terminal | v5.25.1 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.25 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v8.2.11 | 8.3+ | 17 | None |
 | Python 3 Integration | v3.3.0 | 8.3+ | 17 | Python 3.8+ on server |
