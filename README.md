@@ -31,9 +31,7 @@
 
 ## Overview
 
-This portal provides downloads for the **Gaskony Ignition Module Suite** - five production-ready modules that extend Inductive Automation's Ignition platform with camera integration, AI assistance, version control, PLC emulation, and Python 3 scripting.
-
-All modules are built for **Ignition 8.3+** with **Java 17** and are signed for secure deployment.
+This portal provides downloads for the **Gaskony Ignition Module Suite** - five production-ready modules that extend Inductive Automation's Ignition platform with camera integration, AI assistance, version control, PLC emulation, and Python 3 scripting. All modules are built for **Ignition 8.3+** with **Java 17** and are signed for secure deployment.
 
 ---
 
@@ -56,7 +54,7 @@ Multi-protocol camera integration supporting ONVIF, RTSP, MJPEG, and snapshot UR
 - Connection Browser for device setup
 - OPC-UA tag integration for camera data
 
-<!-- ![Camera Driver Screenshot](docs/screenshots/camera-driver.png) -->
+![Camera Driver Screenshot](screenshots/camera-driver.png)
 
 ---
 
@@ -79,7 +77,7 @@ AI-powered coding assistant integrated directly into Ignition Gateway, providing
 
 **Requirements:** Claude API key (configured in module settings)
 
-<!-- ![Claude AI Terminal Screenshot](docs/screenshots/claude-code.png) -->
+![Claude AI Terminal Screenshot](screenshots/claude-code-webui.png)
 
 ---
 
@@ -100,7 +98,7 @@ Full Git version control for Ignition projects directly from the Designer and Ga
 - Designer toolbar with commit dialog and status bar
 - Automatic remote URL sync
 
-<!-- ![Git Integration Screenshot](docs/screenshots/git-module.png) -->
+![Git Integration Screenshot](screenshots/git-integration.png)
 
 ---
 
@@ -121,7 +119,7 @@ Emulate Allen-Bradley Logix PLC devices with configurable tag structures for dev
 - File-based device configuration (import/export)
 - Gateway WebUI integration
 
-<!-- ![Logix PLC Emulator Screenshot](docs/screenshots/plc-emulator.png) -->
+![Logix PLC Emulator Screenshot](screenshots/logix-plc-emulator.png)
 
 ---
 
@@ -145,7 +143,7 @@ Full Python 3 scripting environment with an integrated IDE in the Ignition Desig
 
 **Requirements:** Python 3.8+ installed on the Gateway server
 
-<!-- ![Python 3 Integration Screenshot](docs/screenshots/python3-integration.png) -->
+<!-- Screenshot coming soon - Python 3 Integration is a Designer-only module -->
 
 ---
 
