@@ -43,8 +43,8 @@ Multi-protocol camera integration supporting ONVIF, RTSP, MJPEG, and snapshot UR
 
 | | |
 |---|---|
-| **Latest Version** | v2.7.8 |
-| **Download** | [CameraDriver-2.7.8.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/camera-driver-v2.7.8/CameraDriver-2.7.8.modl) |
+| **Latest Version** | v2.7.9 |
+| **Download** | [CameraDriver-2.7.9.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/camera-driver-v2.7.9/CameraDriver-2.7.9.modl) |
 | **Size** | 18 MB |
 
 **Features:**
@@ -173,7 +173,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 
 | Module | Version | Ignition | Java | Additional Requirements |
 |--------|---------|----------|------|------------------------|
-| Camera Driver | v2.7.8 | 8.3+ | 17 | Network access to cameras |
+| Camera Driver | v2.7.9 | 8.3+ | 17 | Network access to cameras |
 | Claude AI Terminal | v5.25.6 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.33 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v8.2.11 | 8.3+ | 17 | None |
