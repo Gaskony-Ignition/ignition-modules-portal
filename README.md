@@ -64,8 +64,8 @@ AI-powered coding assistant integrated directly into Ignition Gateway, providing
 
 | | |
 |---|---|
-| **Latest Version** | v6.0.0 |
-| **Download** | [ClaudeCode-WebUI-6.0.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/claude-code-v6.0.0/ClaudeCode-WebUI-6.0.0.modl) |
+| **Latest Version** | v6.0.1 |
+| **Download** | [ClaudeCode-WebUI-6.0.1.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/claude-code-v6.0.1/ClaudeCode-WebUI-6.0.1.modl) |
 | **Size** | 46 MB |
 
 **Features:**
@@ -174,7 +174,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Module | Version | Ignition | Java | Additional Requirements |
 |--------|---------|----------|------|------------------------|
 | Camera Driver | v2.11.0 | 8.3+ | 17 | Network access to cameras |
-| Claude AI Terminal | v6.0.0 | 8.3+ | 17 | Claude API key |
+| Claude AI Terminal | v6.0.1 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.40 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v9.0.0 | 8.3+ | 17 | None |
 | Python 3 Integration | v3.6.6 | 8.3+ | 17 | Python 3.8+ on server |
