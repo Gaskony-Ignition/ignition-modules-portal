@@ -129,8 +129,8 @@ Full Python 3 scripting environment with an integrated IDE in the Ignition Desig
 
 | | |
 |---|---|
-| **Latest Version** | v3.6.5 |
-| **Download** | [Python3-3.6.5.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/python3-integration-v3.6.5/Python3-3.6.5.modl) |
+| **Latest Version** | v3.6.6 |
+| **Download** | [Python3-3.6.6.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/python3-integration-v3.6.6/Python3-3.6.6.modl) |
 | **Size** | 50 MB |
 
 **Features:**
@@ -177,7 +177,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Claude AI Terminal | v6.0.0 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.3.39 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v8.2.18 | 8.3+ | 17 | None |
-| Python 3 Integration | v3.6.5 | 8.3+ | 17 | Python 3.8+ on server |
+| Python 3 Integration | v3.6.6 | 8.3+ | 17 | Python 3.8+ on server |
 
 All modules are signed and compatible with Ignition's module security model.
 
