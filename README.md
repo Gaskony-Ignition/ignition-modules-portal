@@ -87,8 +87,8 @@ Full Git version control for Ignition projects directly from the Designer and Ga
 
 | | |
 |---|---|
-| **Latest Version** | v1.3.53 |
-| **Download** | [Ignition-Git-Module-1.3.53.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/git-module-v1.3.53/Ignition-Git-Module-1.3.53.modl) |
+| **Latest Version** | v1.3.54 |
+| **Download** | [Ignition-Git-Module-1.3.54.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/git-module-v1.3.54/Ignition-Git-Module-1.3.54.modl) |
 | **Size** | 28 MB |
 
 **Features:**
@@ -175,7 +175,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 |--------|---------|----------|------|------------------------|
 | Camera Driver | v2.25.0 | 8.3+ | 17 | Network access to cameras |
 | Claude AI Terminal | v7.2.1 | 8.3+ | 17 | Claude API key |
-| Git Integration | v1.3.53 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
+| Git Integration | v1.3.54 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v9.1.1 | 8.3+ | 17 | None |
 | Python 3 Integration | v3.8.0 | 8.3+ | 17 | Python 3.8+ on server |
 
