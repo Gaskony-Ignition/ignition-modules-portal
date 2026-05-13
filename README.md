@@ -88,7 +88,7 @@ Full Git version control for Ignition projects directly from the Designer and Ga
 | | |
 |---|---|
 | **Latest Version** | v1.4.0 |
-| **Download** | [Ignition-Git-Module-1.4.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/git-module-v1.4.0/Ignition-Git-Module-1.4.0.modl) |
+| **Download** | [Ignition-Git-Module-1.4.13.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/git-module-v1.4.13/Ignition-Git-Module-1.4.13.modl) |
 | **Size** | 28 MB |
 
 **Features:**
