@@ -19,7 +19,6 @@
 - [Overview](#overview)
 - [Modules](#modules)
   - [Camera Driver](#camera-driver)
-  - [Claude AI Terminal](#claude-ai-terminal)
   - [Git Integration](#git-integration)
   - [Logix PLC Emulator](#logix-plc-emulator)
   - [Python 3 Integration](#python-3-integration)
@@ -31,7 +30,7 @@
 
 ## Overview
 
-This portal provides downloads for the **Gaskony Ignition Module Suite** - five production-ready modules that extend Inductive Automation's Ignition platform with camera integration, AI assistance, version control, PLC emulation, and Python 3 scripting. All modules are built for **Ignition 8.3+** with **Java 17** and are signed for secure deployment.
+This portal provides downloads for the **Gaskony Ignition Module Suite** - four production-ready modules that extend Inductive Automation's Ignition platform with camera integration, version control, PLC emulation, and Python 3 scripting. All modules are built for **Ignition 8.3+** with **Java 17** and are signed for secure deployment.
 
 ---
 
@@ -55,29 +54,6 @@ Multi-protocol camera integration supporting ONVIF, RTSP, MJPEG, and snapshot UR
 - OPC-UA tag integration for camera data
 
 ![Camera Driver Screenshot](screenshots/camera-driver.png)
-
----
-
-### Claude AI Terminal
-
-AI-powered coding assistant integrated directly into Ignition Gateway, providing Claude AI access for development and troubleshooting.
-
-| | |
-|---|---|
-| **Latest Version** | v7.3.14 |
-| **Download** | [ClaudeCode-WebUI-7.3.14.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/claude-code-v7.3.14/ClaudeCode-WebUI-7.3.14.modl) |
-| **Size** | 46 MB |
-
-**Features:**
-- Claude AI chat interface in Gateway WebUI
-- Auto-load context from Claude session files
-- File download with context tracking
-- System log monitoring panel
-- Terminal integration with scroll management
-
-**Requirements:** Claude API key (configured in module settings)
-
-![Claude AI Terminal Screenshot](screenshots/claude-ai-terminal.png)
 
 ---
 
@@ -174,7 +150,6 @@ Follow the same installation steps - Ignition will detect the existing module an
 | Module | Version | Ignition | Java | Additional Requirements |
 |--------|---------|----------|------|------------------------|
 | Camera Driver | v3.0.1 | 8.3+ | 17 | Network access to cameras |
-| Claude AI Terminal | v7.3.14 | 8.3+ | 17 | Claude API key |
 | Git Integration | v1.4.0 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
 | Logix PLC Emulator | v9.2.14 | 8.3+ | 17 | None |
 | Python 3 Integration | v4.5.3 | 8.3+ | 17 | Python 3.8+ on server |
