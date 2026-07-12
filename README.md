@@ -84,8 +84,8 @@ Emulate Allen-Bradley Logix PLC devices with configurable tag structures for dev
 
 | | |
 |---|---|
-| **Latest Version** | v9.2.14 |
-| **Download** | [LogixPLCEmulator-9.2.14.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/logix-emulator-v9.2.14/LogixPLCEmulator-9.2.14.modl) |
+| **Latest Version** | v10.0.0 |
+| **Download** | [LogixPLCEmulator-10.0.0.modl](https://github.com/Gaskony-Ignition/ignition-modules-portal/releases/download/logix-emulator-v10.0.0/LogixPLCEmulator-10.0.0.modl) |
 | **Size** | 12 MB |
 
 **Features:**
@@ -151,7 +151,7 @@ Follow the same installation steps - Ignition will detect the existing module an
 |--------|---------|----------|------|------------------------|
 | Camera Driver | v3.0.1 | 8.3+ | 17 | Network access to cameras |
 | Git Integration | v1.4.0 | 8.3+ | 17 | Git server (GitHub, GitLab, etc.) |
-| Logix PLC Emulator | v9.2.14 | 8.3+ | 17 | None |
+| Logix PLC Emulator | v10.0.0 | 8.3+ | 17 | None |
 | Python 3 Integration | v4.5.3 | 8.3+ | 17 | Python 3.8+ on server |
 
 All modules are signed and compatible with Ignition's module security model.
