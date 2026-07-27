@@ -19,6 +19,7 @@
     --accent: #38bdf8;
     --accent-ink: #04121c;
     --ok: #45d483;
+    --note: #e0a33e;
     --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", Menlo, Consolas, monospace;
     --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
@@ -175,6 +176,19 @@
   .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .dl-size { font-family: var(--mono); font-size: 11px; opacity: .8; font-weight: 500; }
 
+  /* ---- support-status notice ---- */
+  .notice {
+    display: flex; gap: 14px; align-items: flex-start;
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--note); border-radius: 14px;
+    padding: 18px 22px;
+  }
+  .notice-icon { color: var(--note); flex: 0 0 auto; margin-top: 2px; }
+  .notice h3 { margin: 0 0 6px; font-size: 15.5px; font-weight: 640; letter-spacing: -0.01em; }
+  .notice p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; max-width: 80ch; }
+  .notice a { color: var(--accent); text-decoration: none; }
+  .notice a:hover { text-decoration: underline; }
+
   /* ---- support ---- */
   .support {
     display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap;
@@ -235,6 +249,16 @@
     </div>
   </section>
 
+  <section class="wrap" id="support-status" style="padding: 4px 0 20px;">
+    <div class="notice">
+      <svg class="notice-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5"/><path d="M12 16.5v.01"/></svg>
+      <div>
+        <h3>These modules are not actively supported</h3>
+        <p>They are published as-is under Apache-2.0. I update and improve them when I can, but there is no support commitment, no roadmap, and no guaranteed response to issues. They are open sourced so others can use, fork, and contribute &mdash; if you need a fix or a feature, a pull request on the relevant <a href="https://github.com/Gaskony-Ignition">module repository</a> is the fastest route to getting it.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="grid wrap" id="modules" aria-label="Available modules">
     <!-- cards injected here -->
   </section>
@@ -256,7 +280,7 @@
     <div class="support">
       <div class="support-copy">
         <h3>Questions, bugs, or feature requests?</h3>
-        <p>These modules are open source and actively maintained. The fastest way to get help or shape what comes next is on GitHub &mdash; open an issue on the relevant module and it'll be picked up there. Pull requests are welcome too.</p>
+        <p>Everything happens on GitHub &mdash; open an issue on the relevant module repository. Bear in mind these modules are not actively supported, so issues are looked at when time allows and may sit for a while. Pull requests are very welcome and are the quickest way to get something fixed or added.</p>
       </div>
       <div class="support-actions">
         <a class="btn btn-primary" href="https://github.com/orgs/Gaskony-Ignition/discussions">Ask a question</a>
@@ -324,7 +348,7 @@
       name: "Logix PLC Emulator", tagline: "Driver-canonical PLC simulation",
       desc: "Emulate Allen-Bradley Logix PLCs with driver-canonical NodeIds and tag addressing — develop and test Ignition projects without physical hardware.",
       repo: "ignition-module-plc-emulator", asset: "LogixPLCEmulator",
-      fallback: { version: "10.1.0", tag: "logix-emulator-v10.1.0", file: "LogixPLCEmulator-10.1.0.modl", size: 14572914, date: "2026-07-13" }
+      fallback: { version: "11.0.0", tag: "logix-emulator-v11.0.0", file: "LogixPLCEmulator-11.0.0.modl", size: 14572859, date: "2026-07-27" }
     },
     {
       key: "python3-integration", prefix: "python3-integration-v", accent: "#60a5fa", icon: "python",
