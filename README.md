@@ -15,7 +15,7 @@ Independent, open-source modules for Inductive Automation's
 | ------ | ------ | ------ |
 | Camera Driver | v3.1.9 | [ignition-module-camera-driver](https://github.com/Gaskony-Ignition/ignition-module-camera-driver) |
 | Logix PLC Emulator | v11.1.2 | [ignition-module-plc-emulator](https://github.com/Gaskony-Ignition/ignition-module-plc-emulator) |
-| Python 3 Integration | v4.5.3 | [ignition-module-python3](https://github.com/Gaskony-Ignition/ignition-module-python3) |
+| Python 3 Integration | v4.6.1 | [ignition-module-python3](https://github.com/Gaskony-Ignition/ignition-module-python3) |
 
 All modules are signed and built for Ignition 8.3+ (Java 17). Download the `.modl`
 from a [release](../../releases) and install via
