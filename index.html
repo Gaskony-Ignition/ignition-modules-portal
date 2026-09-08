@@ -241,9 +241,9 @@
   <section class="hero wrap">
     <span class="eyebrow"><span class="dot"></span> Ignition 8.3+ &middot; Java 17 &middot; Signed</span>
     <h1>Modules that extend Ignition.</h1>
-    <p>Open-source, production-ready modules for Inductive Automation's Ignition platform &mdash; camera integration, PLC emulation, Python&nbsp;3 scripting and Git version control. Signed, versioned, and free to use.</p>
+    <p>Open-source, production-ready modules for Inductive Automation's Ignition platform &mdash; camera integration, PLC emulation, Python&nbsp;3 scripting, Git version control and a browser script IDE. Signed, versioned, and free to use.</p>
     <div class="meta">
-      <span><b>4</b> modules</span>
+      <span><b>5</b> modules</span>
       <span><b>Open source</b> &mdash; licence per module</span>
       <span><b>Signed</b> .modl builds</span>
     </div>
@@ -306,6 +306,7 @@
         <a href="https://github.com/Gaskony-Ignition/module-plc-emulator">Logix PLC Emulator</a>
         <a href="https://github.com/Gaskony-Ignition/module-python3">Python 3 Integration</a>
         <a href="https://github.com/Gaskony-Ignition/module-git">Git Integration</a>
+        <a href="https://github.com/Gaskony-Ignition/module-script-ide">Script IDE</a>
       </div>
       <div class="foot-col">
         <h4>Resources</h4>
@@ -329,7 +330,8 @@
     camera: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7.5h13l4-2.5v13l-4-2.5H2z"/><circle cx="8.5" cy="12" r="3"/></svg>',
     plc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1.5"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>',
     python: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg>',
-    git: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 7.5v9M6 12h6.5a3 3 0 0 0 3-3V7.5"/></svg>'
+    git: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 7.5v9M6 12h6.5a3 3 0 0 0 3-3V7.5"/></svg>',
+    ide: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M2.5 8.5h19M7 12.5l2 2-2 2M11.5 16.5h5"/></svg>'
   };
   const DL_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>';
   const DOC_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3H19v15H6.5A2.5 2.5 0 004 20.5z"/><path d="M19 18H6.5A2.5 2.5 0 004 20.5"/></svg>';
@@ -365,6 +367,13 @@
       desc: "Commit, push and pull Ignition project resources from the Designer, with uncommitted work marked in the Project Browser \u2014 and version the gateway's config as code, choosing what it covers from a tree. A Gaskony build of OperaMetrix's module.",
       repo: "module-git", asset: "GitIntegration", licence: "Beerware",
       fallback: { version: "2.10.0", tag: "git-integration-v2.10.0", file: "GitIntegration-2.10.0.modl", size: 6800000, date: "2026-09-08" }
+    },
+    {
+      key: "script-ide", prefix: "script-ide-v", accent: "#34d399", icon: "ide",
+      name: "Script IDE", tagline: "Write Ignition scripts in the browser",
+      desc: "A full editor for your gateway's project scripts \u2014 completion, go-to-definition, structural lints, a test framework and a console, running against the live gateway with no Designer open. Saves byte-identical to the Designer.",
+      repo: "module-script-ide", asset: "ScriptIDE",
+      fallback: { version: "1.25.0", tag: "script-ide-v1.25.0", file: "ScriptIDE-1.25.0.modl", size: 1600000, date: "2026-09-08" }
     }
   ];
 
