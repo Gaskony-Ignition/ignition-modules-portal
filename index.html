@@ -241,10 +241,10 @@
   <section class="hero wrap">
     <span class="eyebrow"><span class="dot"></span> Ignition 8.3+ &middot; Java 17 &middot; Signed</span>
     <h1>Modules that extend Ignition.</h1>
-    <p>Open-source, production-ready modules for Inductive Automation's Ignition platform &mdash; camera integration, PLC emulation, and Python&nbsp;3 scripting. Signed, versioned, and free to use.</p>
+    <p>Open-source, production-ready modules for Inductive Automation's Ignition platform &mdash; camera integration, PLC emulation, Python&nbsp;3 scripting and Git version control. Signed, versioned, and free to use.</p>
     <div class="meta">
-      <span><b>3</b> modules</span>
-      <span><b>Apache-2.0</b> licensed</span>
+      <span><b>4</b> modules</span>
+      <span><b>Open source</b> &mdash; licence per module</span>
       <span><b>Signed</b> .modl builds</span>
     </div>
   </section>
@@ -254,7 +254,7 @@
       <svg class="notice-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5"/><path d="M12 16.5v.01"/></svg>
       <div>
         <h3>These modules are not actively supported</h3>
-        <p>They are published as-is under Apache-2.0. I update and improve them when I can, but there is no support commitment, no roadmap, and no guaranteed response to issues. They are open sourced so others can use, fork, and contribute &mdash; if you need a fix or a feature, a pull request on the relevant <a href="https://github.com/Gaskony-Ignition">module repository</a> is the fastest route to getting it.</p>
+        <p>They are published as-is, open source, under the licence shown on each module below. I update and improve them when I can, but there is no support commitment, no roadmap, and no guaranteed response to issues. They are open sourced so others can use, fork, and contribute &mdash; if you need a fix or a feature, a pull request on the relevant <a href="https://github.com/Gaskony-Ignition">module repository</a> is the fastest route to getting it.</p>
       </div>
     </div>
   </section>
@@ -305,6 +305,7 @@
         <a href="https://github.com/Gaskony-Ignition/module-camera-driver">Camera Driver</a>
         <a href="https://github.com/Gaskony-Ignition/module-plc-emulator">Logix PLC Emulator</a>
         <a href="https://github.com/Gaskony-Ignition/module-python3">Python 3 Integration</a>
+        <a href="https://github.com/Gaskony-Ignition/module-git">Git Integration</a>
       </div>
       <div class="foot-col">
         <h4>Resources</h4>
@@ -314,7 +315,7 @@
       </div>
     </div>
     <p class="disclaimer">
-      <b>Independent project.</b> These modules are a personal, open-source project and are <b>not affiliated with, endorsed by, or supported by Inductive Automation</b>. "Ignition" is a trademark of Inductive Automation. Software is provided under the Apache-2.0 licence, without warranty of any kind.
+      <b>Independent project.</b> These modules are a personal, open-source project and are <b>not affiliated with, endorsed by, or supported by Inductive Automation</b>. "Ignition" is a trademark of Inductive Automation. Software is provided without warranty of any kind, under each module's own licence. Git Integration is a fork of <a href="https://github.com/operametrix/ignition-git-module">OperaMetrix's module</a>, originally by Enzo Sagnelonge at AXONE-IO, distributed under Beerware with its notice retained.
     </p>
   </div>
 </footer>
@@ -327,7 +328,8 @@
   const ICONS = {
     camera: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7.5h13l4-2.5v13l-4-2.5H2z"/><circle cx="8.5" cy="12" r="3"/></svg>',
     plc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1.5"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>',
-    python: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg>'
+    python: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg>',
+    git: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 7.5v9M6 12h6.5a3 3 0 0 0 3-3V7.5"/></svg>'
   };
   const DL_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>';
   const DOC_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3H19v15H6.5A2.5 2.5 0 004 20.5z"/><path d="M19 18H6.5A2.5 2.5 0 004 20.5"/></svg>';
@@ -356,6 +358,13 @@
       desc: "Run real CPython 3 from Ignition scripting — use modern libraries and language features alongside the built-in Jython environment.",
       repo: "ignition-module-python3", asset: "Python3",
       fallback: { version: "4.5.3", tag: "python3-integration-v4.5.3", file: "Python3-4.5.3.modl", size: 51939968, date: "2026-07-07" }
+    },
+    {
+      key: "git-integration", prefix: "git-integration-v", accent: "#a78bfa", icon: "git",
+      name: "Git Integration", tagline: "Version control for projects and config",
+      desc: "Commit, push and pull Ignition project resources from the Designer, with uncommitted work marked in the Project Browser \u2014 and version the gateway's config as code, choosing what it covers from a tree. A Gaskony build of OperaMetrix's module.",
+      repo: "module-git", asset: "GitIntegration", licence: "Beerware",
+      fallback: { version: "2.10.0", tag: "git-integration-v2.10.0", file: "GitIntegration-2.10.0.modl", size: 6800000, date: "2026-09-08" }
     }
   ];
 
@@ -383,7 +392,7 @@
         <div class="divider"></div>
         <div class="specs">
           <div class="spec"><span class="k">Latest version</span><span class="v" data-latest>v${f.version}</span></div>
-          <div class="spec"><span class="k">Licence</span><span class="v free">Apache-2.0</span></div>
+          <div class="spec"><span class="k">Licence</span><span class="v free">${mod.licence || "Apache-2.0"}</span></div>
           <div class="spec"><span class="k">Download size</span><span class="v" data-size>${fmtSize(f.size)}</span></div>
         </div>
         <div class="field">
