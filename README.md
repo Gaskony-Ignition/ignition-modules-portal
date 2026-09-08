@@ -18,6 +18,7 @@ Independent, open-source modules for Inductive Automation's
 | Logix PLC Emulator | v11.1.2 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
 | Python 3 Integration | v4.6.2 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v2.10.0 | Beerware | [module-git](https://github.com/Gaskony-Ignition/module-git) |
+| Script IDE | v1.25.0 | Apache-2.0 | [module-script-ide](https://github.com/Gaskony-Ignition/module-script-ide) |
 
 Git Integration is a fork, not original work here: it was created by Enzo
 Sagnelonge at [AXONE-IO](https://www.axone-io.com/) and substantially reworked by
