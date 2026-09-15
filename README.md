@@ -1,21 +1,31 @@
 # Gaskony Ignition Modules
 
 Independent, open-source modules for Inductive Automation's
-[Ignition](https://inductiveautomation.com/) platform (8.3+).
+[Ignition](https://inductiveautomation.com/) platform (8.3+), with a browsable
+download portal at
+[gaskony-ignition.github.io/ignition-modules-portal](https://gaskony-ignition.github.io/ignition-modules-portal/).
 
-> **⚠️ These modules are not actively supported.** They are published as-is, open
-> source, under the licence shown against each module below. I update and improve
-> them when I can, but there is no support commitment, no roadmap, and no
-> guaranteed response to issues. They are open sourced so others can use, fork,
-> and contribute — if you need a fix or a feature, a pull request is the fastest
-> route to getting it.
+## Why this exists
 
-### ➡️ Download portal: https://gaskony-ignition.github.io/ignition-modules-portal/
+Each module lives in its own private source repository, which is not a
+convenient place to point someone who just wants the latest signed `.modl`.
+This repo is that place: one page, one table, direct downloads, no GitHub
+account required.
+
+## What it looks like
+
+![Camera Driver's connection browser, showing a running RTSP camera profile in the Ignition Gateway](screenshots/camera-driver.png)
+*Camera Driver's Gateway connection browser, showing a live RTSP profile.*
+
+![Git Integration's management panel, showing repository status and commit controls in the Ignition Gateway](screenshots/git-integration.png)
+*Git Integration's Gateway panel, showing sync status and commit controls for a project repository.*
+
+## What it does
 
 | Module | Latest | Licence | Source |
 | ------ | ------ | ------- | ------ |
 | Camera Driver | v3.2.1 | Apache-2.0 | [module-camera-driver](https://github.com/Gaskony-Ignition/module-camera-driver) |
-| Logix PLC Emulator | v11.1.2 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
+| Logix PLC Emulator | v11.0.0 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
 | Python 3 Integration | v4.6.2 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v3.0.1 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
 | Script IDE | v1.25.0 | Apache-2.0 | [module-script-ide](https://github.com/Gaskony-Ignition/module-script-ide) |
@@ -27,21 +37,26 @@ it. This build adds gitignore management on the gateway Versioning page and
 change indicators in the Designer's Project Browser. The Beerware notice is
 retained, as that licence requires.
 
-All modules are signed and built for Ignition 8.3+ (Java 17). Download the `.modl`
-from a [release](../../releases) and install via
-**Gateway → Config → Modules → Install or Upgrade a Module**.
+All modules are signed and built for Ignition 8.3+ (Java 17).
+
+## How to use it
+
+1. Open the [download portal](https://gaskony-ignition.github.io/ignition-modules-portal/)
+   and pick a module and version, or grab a `.modl` from a
+   [release](../../releases) directly.
+2. In the Gateway, go to **Config → Modules → Install or Upgrade a Module** and
+   select the file.
+3. Accept the signing certificate — every build is signed with the Gaskony
+   certificate.
 
 ## Questions & contributions
 
-Open an issue on the relevant module's source repository. Bear in mind these
-modules are not actively supported, so issues are looked at when time allows and
-may sit for a while.
-
-**Pull requests are very welcome** and are the quickest way to get something
-fixed or added. Every module here is open source under the licence shown in the
-table — fork them, build on them, and contribute back if it is useful to you.
-For Git Integration, changes that are not specific to this build belong upstream
-at OperaMetrix.
+> **⚠️ These modules are not actively supported.** They are published as-is,
+> open source, under the licence shown against each module above. Issues are
+> looked at when time allows and may sit for a while — a pull request on the
+> relevant module's source repository is the fastest route to getting
+> something fixed or added. For Git Integration, changes that are not specific
+> to this build belong upstream at OperaMetrix.
 
 ---
 *Independent project — not affiliated with, endorsed by, or supported by
