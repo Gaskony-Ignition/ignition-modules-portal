@@ -176,6 +176,10 @@
   .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .dl-size { font-family: var(--mono); font-size: 11px; opacity: .8; font-weight: 500; }
 
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+
   /* ---- support-status notice ---- */
   .notice {
     display: flex; gap: 14px; align-items: flex-start;
@@ -186,8 +190,8 @@
   .notice-icon { color: var(--note); flex: 0 0 auto; margin-top: 2px; }
   .notice h3 { margin: 0 0 6px; font-size: 15.5px; font-weight: 640; letter-spacing: -0.01em; }
   .notice p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; max-width: 80ch; }
-  .notice a { color: var(--accent); text-decoration: none; }
-  .notice a:hover { text-decoration: underline; }
+  .notice a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  .notice a:hover { text-decoration-thickness: 2px; }
 
   /* ---- support ---- */
   .support {

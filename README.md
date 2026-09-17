@@ -37,7 +37,8 @@ it. This build adds gitignore management on the gateway Versioning page and
 change indicators in the Designer's Project Browser. The Beerware notice is
 retained, as that licence requires.
 
-All modules are signed and built for Ignition 8.3+ (Java 17).
+All modules are signed and built for Ignition 8.3+ (Java 17). The page itself
+meets WCAG 2.1 AA.
 
 ## How to use it
 
