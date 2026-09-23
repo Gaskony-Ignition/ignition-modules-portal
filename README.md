@@ -28,7 +28,7 @@ account required.
 | Logix PLC Emulator | v11.0.0 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
 | Python 3 Integration | v4.6.2 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v3.9.8 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
-| Script IDE | v1.25.0 | Apache-2.0 | [module-script-ide](https://github.com/Gaskony-Ignition/module-script-ide) |
+| Script IDE | v1.26.0 | Apache-2.0 | [module-script-ide](https://github.com/Gaskony-Ignition/module-script-ide) |
 
 Git Integration is a fork, not original work here: it was created by Enzo
 Sagnelonge at [AXONE-IO](https://www.axone-io.com/) and substantially reworked by
