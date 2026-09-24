@@ -25,7 +25,7 @@ account required.
 | Module | Latest | Licence | Source |
 | ------ | ------ | ------- | ------ |
 | Camera Driver | v3.3.1 | Apache-2.0 | [module-camera-driver](https://github.com/Gaskony-Ignition/module-camera-driver) |
-| Logix PLC Emulator | v11.0.0 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
+| Logix PLC Emulator | v11.1.4 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
 | Python 3 Integration | v4.6.2 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v3.9.8 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
 | Script IDE | v1.26.0 | Apache-2.0 | [module-script-ide](https://github.com/Gaskony-Ignition/module-script-ide) |
