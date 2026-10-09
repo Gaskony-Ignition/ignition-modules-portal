@@ -5,7 +5,7 @@ Independent, open-source modules for Inductive Automation's
 download portal at
 [gaskony-ignition.github.io/ignition-modules-portal](https://gaskony-ignition.github.io/ignition-modules-portal/).
 
-> **Not an Inductive Automation product, and not supported by Inductive Automation.** Independent work, largely built with AI tools and tested for one purpose on one gateway. Take the ideas; fork and review it before it goes near production. [NOTICE.md](NOTICE.md) says more.
+> **Not an Inductive Automation product, and not supported by Inductive Automation.** Independent work, largely built with AI tools and tested for one purpose on a limited subset of gateway versions and platforms. Take the ideas; fork and review it before it goes near production. [NOTICE.md](NOTICE.md) says more.
 
 ## Why this exists
 
