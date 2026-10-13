@@ -29,7 +29,7 @@ account required.
 | Camera Driver | v3.3.1 | Apache-2.0 | [module-camera-driver](https://github.com/Gaskony-Ignition/module-camera-driver) |
 | Logix PLC Emulator | v11.1.4 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
 | Python 3 Integration | v4.6.4 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
-| Git Integration | v3.9.12 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
+| Git Integration | v3.10.0 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
 | Web IDE | v1.29.1 | Apache-2.0 | [module-web-ide](https://github.com/Gaskony-Ignition/module-web-ide) |
 
 Git Integration is a fork, not original work here: it was created by Enzo
