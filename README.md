@@ -31,6 +31,7 @@ account required.
 | Python 3 Integration | v4.6.4 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v3.10.1 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
 | Web IDE | v2.0.0 | Apache-2.0 | [module-web-ide](https://github.com/Gaskony-Ignition/module-web-ide) |
+| Mermaid Chart | v0.3.2 | MIT | [module-mermaid](https://github.com/Gaskony-Ignition/module-mermaid) |
 
 Git Integration is a fork, not original work here: it was created by Enzo
 Sagnelonge at [AXONE-IO](https://www.axone-io.com/) and substantially reworked by
@@ -38,6 +39,10 @@ Sagnelonge at [AXONE-IO](https://www.axone-io.com/) and substantially reworked b
 it. This build adds gitignore management on the gateway Versioning page and
 change indicators in the Designer's Project Browser. The Beerware notice is
 retained, as that licence requires.
+
+Mermaid Chart is a fork of [Cognidata](https://cognidata.org)'s Mermaid Chart
+1.0.0, rebuilt for Ignition 8.3 with a graphical flowchart editor in the
+Designer. It keeps upstream's MIT licence and copyright notice.
 
 All modules are signed and built for Ignition 8.3+ (Java 17). The page itself
 meets WCAG 2.1 AA.

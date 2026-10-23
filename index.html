@@ -189,7 +189,7 @@
       <a href="https://github.com/Gaskony-Ignition">Source &amp; issues</a>
       <a href="https://inductiveautomation.com/">About Ignition</a>
     </div>
-    <p>Independent work, <b>not an Inductive Automation product and not affiliated with, endorsed by, or supported by Inductive Automation</b>. "Ignition" is a trademark of Inductive Automation. These modules exist to show what is possible and to give you a starting point: each was built for one purpose, tested for that purpose on a limited subset of gateway versions and platforms, and largely built with AI tools. Fork and review before anything goes near production. Feedback is welcome through each repo's Issues tab; improvements are made where possible, but no support is guaranteed. Provided without warranty under each module's own licence. Git Integration is a fork of <a href="https://github.com/operametrix/ignition-git-module">OperaMetrix's module</a>, originally by Enzo Sagnelonge at AXONE-IO, distributed under Beerware with its notice retained.</p>
+    <p>Independent work, <b>not an Inductive Automation product and not affiliated with, endorsed by, or supported by Inductive Automation</b>. "Ignition" is a trademark of Inductive Automation. These modules exist to show what is possible and to give you a starting point: each was built for one purpose, tested for that purpose on a limited subset of gateway versions and platforms, and largely built with AI tools. Fork and review before anything goes near production. Feedback is welcome through each repo's Issues tab; improvements are made where possible, but no support is guaranteed. Provided without warranty under each module's own licence. Git Integration is a fork of <a href="https://github.com/operametrix/ignition-git-module">OperaMetrix's module</a>, originally by Enzo Sagnelonge at AXONE-IO, distributed under Beerware with its notice retained. Mermaid Chart is a fork of <a href="https://cognidata.org">Cognidata's Mermaid Chart</a>, distributed under MIT with its notice retained.</p>
   </div>
 </footer>
 
@@ -203,7 +203,8 @@
     plc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1.5"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>',
     python: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/></svg>',
     git: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 7.5v9M6 12h6.5a3 3 0 0 0 3-3V7.5"/></svg>',
-    ide: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M2.5 8.5h19M7 12.5l2 2-2 2M11.5 16.5h5"/></svg>'
+    ide: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M2.5 8.5h19M7 12.5l2 2-2 2M11.5 16.5h5"/></svg>',
+    mermaid: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8.5" y="2.5" width="7" height="5" rx="1"/><rect x="2.5" y="16.5" width="7" height="5" rx="1"/><rect x="14.5" y="16.5" width="7" height="5" rx="1"/><path d="M12 7.5v4.5M6 16.5V12h12v4.5"/></svg>'
   };
   const DL_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>';
 
@@ -244,6 +245,13 @@
       desc: "Edit gateway project scripts in the browser \u2014 completion, go-to-definition, lints, tests, a console and a database query browser. No Designer needed.",
       repo: "module-web-ide", asset: "WebIDE", isNew: true,
       fallback: { version: "2.0.0", tag: "web-ide-v2.0.0", file: "WebIDE-2.0.0.modl", size: 5129480, date: "2026-10-16" }
+    },
+    {
+      key: "mermaid-chart", prefix: "mermaid-chart-v", accent: "#f472b6", icon: "mermaid",
+      name: "Mermaid Chart", tagline: "Diagrams from text in Perspective",
+      desc: "Draw flowcharts, state, sequence and ER diagrams in Perspective from a Mermaid definition, rendered offline, with a graphical flowchart editor in the Designer. A build of Cognidata's module.",
+      repo: "module-mermaid", asset: "MermaidChart", licence: "MIT", isNew: true,
+      fallback: { version: "0.3.2", tag: "mermaid-chart-v0.3.2", file: "MermaidChart-0.3.2.modl", size: 1538418, date: "2026-09-25" }
     }
   ];
 
