@@ -31,7 +31,7 @@ account required.
 | Python 3 Integration | v4.6.4 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v3.10.1 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
 | Web IDE | v2.0.0 | Apache-2.0 | [module-web-ide](https://github.com/Gaskony-Ignition/module-web-ide) |
-| Mermaid Chart | v0.3.2 | MIT | [module-mermaid](https://github.com/Gaskony-Ignition/module-mermaid) |
+| Mermaid Chart | v0.3.3 | MIT | [module-mermaid](https://github.com/Gaskony-Ignition/module-mermaid) |
 
 Git Integration is a fork, not original work here: it was created by Enzo
 Sagnelonge at [AXONE-IO](https://www.axone-io.com/) and substantially reworked by
