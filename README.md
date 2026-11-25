@@ -28,7 +28,7 @@ account required.
 | ------ | ------ | ------- | ------ |
 | Camera Driver | v3.3.3 | Apache-2.0 | [module-camera-driver](https://github.com/Gaskony-Ignition/module-camera-driver) |
 | Logix PLC Emulator | v11.1.7 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
-| Python 3 Integration | v4.6.6 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
+| Python 3 Integration | v4.6.7 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v4.5.5 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
 | Web IDE | v2.0.1 | Apache-2.0 | [module-web-ide](https://github.com/Gaskony-Ignition/module-web-ide) |
 | Mermaid Chart | v0.3.4 | MIT | [module-mermaid](https://github.com/Gaskony-Ignition/module-mermaid) |
