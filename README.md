@@ -30,7 +30,7 @@ account required.
 | Logix PLC Emulator | v11.1.4 | Apache-2.0 | [module-plc-emulator](https://github.com/Gaskony-Ignition/module-plc-emulator) |
 | Python 3 Integration | v4.6.4 | Apache-2.0 | [module-python3](https://github.com/Gaskony-Ignition/module-python3) |
 | Git Integration | v4.5.5 | Beerware | [module-git-integration](https://github.com/Gaskony-Ignition/module-git-integration) |
-| Web IDE | v2.0.0 | Apache-2.0 | [module-web-ide](https://github.com/Gaskony-Ignition/module-web-ide) |
+| Web IDE | v2.0.1 | Apache-2.0 | [module-web-ide](https://github.com/Gaskony-Ignition/module-web-ide) |
 | Mermaid Chart | v0.3.4 | MIT | [module-mermaid](https://github.com/Gaskony-Ignition/module-mermaid) |
 
 Git Integration is a fork, not original work here: it was created by Enzo
